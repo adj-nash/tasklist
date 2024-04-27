@@ -3,6 +3,8 @@
   color: #353935;
   font-size: 20px;
   margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .taskName {
@@ -13,6 +15,7 @@
   border-radius: 5px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   margin: 10px;
+  background-color: white;
 }
 
 .deleteButton {
@@ -31,4 +34,6 @@
 
 .completed {
   text-decoration: line-through;
+  text-decoration-thickness: 5px;
+  color: grey;
 }

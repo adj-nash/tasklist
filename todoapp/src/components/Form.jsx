@@ -18,7 +18,7 @@ export default function Form({ todos, setTodos }) {
           value={todo.name}
           placeholder="Enter new task..."
         />
-        <button className={styles.button} type="submit" disabled={!todo}>
+        <button className={styles.button} type="submit" disabled={!todo.name}>
           Add
         </button>
       </div>

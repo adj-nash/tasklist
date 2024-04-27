@@ -1,10 +1,16 @@
-.header {
+.footer {
   text-align: center;
   background-color: #50c878;
   font-weight: bold;
   height: 50px;
+  width: 100%;
   font-size: 2em;
   padding: 30px 0;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  bottom: 0;
+  position: fixed;
+}
+
+.item {
+  margin: 50px;
 }
