@@ -1,1 +1,2 @@
-This was created using the React library.
+# Task List
+> In this project, I build a front-end Task List application. 
